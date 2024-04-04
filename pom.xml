@@ -37,6 +37,17 @@
             <artifactId>jetty-webapp</artifactId>
             <version>9.4.34.v20201102</version>
         </dependency>
+         <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-server</artifactId>
+            <version>9.3.8.v20160314</version>
+         </dependency>
+
+         <dependency>
+                  <groupId>org.eclipse.jetty</groupId>
+                  <artifactId>jetty-servlets</artifactId>
+                  <version>9.3.8.v20160314</version>
+         </dependency>
 
         <dependency>
           <groupId>asm</groupId>
