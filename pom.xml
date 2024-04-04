@@ -32,22 +32,22 @@
           <version>1.9.13</version>
         </dependency>
         <!-- Jetty -->
-        <dependency>
-            <groupId>org.eclipse.jetty</groupId>
-            <artifactId>jetty-webapp</artifactId>
-            <version>9.4.34.v20201102</version>
-        </dependency>
+         <!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-server -->
          <dependency>
-            <groupId>org.eclipse.jetty</groupId>
-            <artifactId>jetty-server</artifactId>
-            <version>9.3.8.v20160314</version>
+             <groupId>org.eclipse.jetty</groupId>
+             <artifactId>jetty-server</artifactId>
+             <version>12.0.7</version>
          </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-webapp -->
          <dependency>
-                  <groupId>org.eclipse.jetty</groupId>
-                  <artifactId>jetty-servlets</artifactId>
-                  <version>9.3.8.v20160314</version>
+             <groupId>org.eclipse.jetty</groupId>
+             <artifactId>jetty-webapp</artifactId>
+             <version>11.0.20</version>
          </dependency>
+
+
+         
 
         <dependency>
           <groupId>asm</groupId>
